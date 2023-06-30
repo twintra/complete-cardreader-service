@@ -1,0 +1,286 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "PCSC/4.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/PCSC.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/PCSC.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "PCSC.Iso7816/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "PCSC": "4.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/PCSC.Iso7816.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/PCSC.Iso7816.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.CodeDom/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Management/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "7.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Management.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "ThaiNationalIDCard/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ThaiNationalIDCard.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ThaiNationalIDCard.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PCSC/4.0.0": {
+      "sha512": "3iLHbcr6YYyqIR+/h0Itv6FG4omAp2PsaKoNsYQ1kN8zkoTHnieya6ZmRH7Kibkhicw2fCb5GZJVIBl7h//XCw==",
+      "type": "package",
+      "path": "pcsc/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/PCSC.dll",
+        "lib/net40/PCSC.xml",
+        "lib/netstandard2.0/PCSC.dll",
+        "lib/netstandard2.0/PCSC.xml",
+        "pcsc.4.0.0.nupkg.sha512",
+        "pcsc.nuspec"
+      ]
+    },
+    "PCSC.Iso7816/4.0.0": {
+      "sha512": "RcvZUznCG8eVGVAZzh07AojWD+rMAYV4yZ9SbR4HJeYYWkmSdYkoPoAyBmE8JVcGvc29v+f6pdNr3PsjkuvRJw==",
+      "type": "package",
+      "path": "pcsc.iso7816/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/PCSC.Iso7816.dll",
+        "lib/net40/PCSC.Iso7816.xml",
+        "lib/netstandard2.0/PCSC.Iso7816.dll",
+        "lib/netstandard2.0/PCSC.Iso7816.xml",
+        "pcsc.iso7816.4.0.0.nupkg.sha512",
+        "pcsc.iso7816.nuspec"
+      ]
+    },
+    "System.CodeDom/7.0.0": {
+      "sha512": "GLltyqEsE5/3IE+zYRP5sNa1l44qKl9v+bfdMcwg+M9qnQf47wK3H0SUR/T+3N4JEQXF3vV4CSuuo0rsg+nq2A==",
+      "type": "package",
+      "path": "system.codedom/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.CodeDom.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.CodeDom.targets",
+        "lib/net462/System.CodeDom.dll",
+        "lib/net462/System.CodeDom.xml",
+        "lib/net6.0/System.CodeDom.dll",
+        "lib/net6.0/System.CodeDom.xml",
+        "lib/net7.0/System.CodeDom.dll",
+        "lib/net7.0/System.CodeDom.xml",
+        "lib/netstandard2.0/System.CodeDom.dll",
+        "lib/netstandard2.0/System.CodeDom.xml",
+        "system.codedom.7.0.0.nupkg.sha512",
+        "system.codedom.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Management/7.0.0": {
+      "sha512": "A4jed4QUviDOm7fJNKAJObEAEkEUXmkGL/w0iyCYTzrl1rezTj8LGFHfsVst4Vb9JwFcTpboiDrvdST48avBpw==",
+      "type": "package",
+      "path": "system.management/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Management.targets",
+        "lib/net462/_._",
+        "lib/net6.0/System.Management.dll",
+        "lib/net6.0/System.Management.xml",
+        "lib/net7.0/System.Management.dll",
+        "lib/net7.0/System.Management.xml",
+        "lib/netstandard2.0/System.Management.dll",
+        "lib/netstandard2.0/System.Management.xml",
+        "runtimes/win/lib/net6.0/System.Management.dll",
+        "runtimes/win/lib/net6.0/System.Management.xml",
+        "runtimes/win/lib/net7.0/System.Management.dll",
+        "runtimes/win/lib/net7.0/System.Management.xml",
+        "system.management.7.0.0.nupkg.sha512",
+        "system.management.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "ThaiNationalIDCard/1.0.0": {
+      "type": "project",
+      "path": "../ThaiNationalIDCard/ThaiNationalIDCard.csproj",
+      "msbuildProject": "../ThaiNationalIDCard/ThaiNationalIDCard.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "PCSC >= 4.0.0",
+      "PCSC.Iso7816 >= 4.0.0",
+      "System.Management >= 7.0.0",
+      "ThaiNationalIDCard >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\abbot02\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\coding\\cardreader-service\\SocketCardReaderService\\TestServer\\TestServer\\TestServer.csproj",
+      "projectName": "TestServer",
+      "projectPath": "D:\\coding\\cardreader-service\\SocketCardReaderService\\TestServer\\TestServer\\TestServer.csproj",
+      "packagesPath": "C:\\Users\\abbot02\\.nuget\\packages\\",
+      "outputPath": "D:\\coding\\cardreader-service\\SocketCardReaderService\\TestServer\\TestServer\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\abbot02\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\coding\\cardreader-service\\SocketCardReaderService\\TestServer\\ThaiNationalIDCard\\ThaiNationalIDCard.csproj": {
+              "projectPath": "D:\\coding\\cardreader-service\\SocketCardReaderService\\TestServer\\ThaiNationalIDCard\\ThaiNationalIDCard.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "PCSC": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          },
+          "PCSC.Iso7816": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          },
+          "System.Management": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.11, 6.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.11, 6.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.11, 6.0.11]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.11, 6.0.11]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

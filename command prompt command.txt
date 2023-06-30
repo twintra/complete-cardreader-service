@@ -1,0 +1,8 @@
+create service : sc create SmartcardReaderService binpath="D:\coding\cardreader-service\publish\SmartcardReaderService.exe" start="demand" displayname="Smartcard reader service"
+change service description : sc description {service name}
+start service : sc start {service name}
+stop service : sc stop {service name}
+
+
+
+c:\Windows\Microsoft.NET\Framework\v4.0.30319>installutil D:\coding\cardreader-service\CardreaderWindowService\WindowsService_HostAPI\WindowsService_HostAPI\bin\Debug\CardReaderWindowsService.exe

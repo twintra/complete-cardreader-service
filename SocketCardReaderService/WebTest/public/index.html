@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Socket</title>
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.7.14/vue.min.js"></script>
+  </head>
+  <body>
+    <div id="app">
+			<p>status: {{ offline?'offline':'online' }}</p>
+			<p>{{ message }}</p>
+			<p><button @click="getList">getList</button></p>
+			<p><button @click="getRes">getRes</button></p>
+			<p><button @click="getReader">getReader</button></p>
+		</div>
+
+    <script>
+      new Vue({
+        el: "#app",
+        data(){
+					return {
+        		socket: null,
+						offline: true,
+						message: '================',
+					}
+        },
+				mounted(){
+					this.connect();
+				},
+				methods: {
+					connect() {
+						console.log('start');
+						this.socket = io('http://localhost:7023', { 
+							// path:'/chat', 
+						});
+						this.socket.on('connect', this.onConnected);
+						this.socket.on('disconnect', this.onDisconnect);
+						this.socket.on('error', this.onError);
+						this.socket.onAny(this.onAny);
+						this.socket.onevent(this.onAny);
+					},
+					onConnected() {
+						console.log('connected');
+						this.offline = false;
+					},
+					onDisconnect() {
+						console.log('disconnect');
+						this.offline = true;
+					},
+					onError(obj) {
+						console.log('error', obj);
+					},
+
+					onAny(event, data) {
+						console.log('onAny', event, data);
+					},
+					onMessage(obj) {
+						console.log('message', obj);
+					},
+
+					getList(){
+						this.socket.emit('showClientList')
+					},
+					getRes(){
+						this.socket.emit('res')
+					},
+					getReader(){
+						this.socket.emit('reader')
+					},
+				}
+      });
+    </script>
+  </body>
+</html>

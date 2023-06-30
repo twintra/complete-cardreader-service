@@ -1,0 +1,11 @@
+D:\coding\cardreader-service\CardreaderWindowService\WindowsService_HostAPI\ThaiNationalIDCard\bin\Release\ThaiNationalIDCard.dll
+D:\coding\cardreader-service\CardreaderWindowService\WindowsService_HostAPI\ThaiNationalIDCard\bin\Release\ThaiNationalIDCard.pdb
+D:\coding\cardreader-service\CardreaderWindowService\WindowsService_HostAPI\ThaiNationalIDCard\bin\Release\PCSC.dll
+D:\coding\cardreader-service\CardreaderWindowService\WindowsService_HostAPI\ThaiNationalIDCard\bin\Release\PCSC.Iso7816.dll
+D:\coding\cardreader-service\CardreaderWindowService\WindowsService_HostAPI\ThaiNationalIDCard\bin\Release\PCSC.xml
+D:\coding\cardreader-service\CardreaderWindowService\WindowsService_HostAPI\ThaiNationalIDCard\bin\Release\PCSC.Iso7816.xml
+D:\coding\cardreader-service\CardreaderWindowService\WindowsService_HostAPI\ThaiNationalIDCard\obj\Release\ThaiNationalIDCard.csproj.AssemblyReference.cache
+D:\coding\cardreader-service\CardreaderWindowService\WindowsService_HostAPI\ThaiNationalIDCard\obj\Release\ThaiNationalIDCard.csproj.CoreCompileInputs.cache
+D:\coding\cardreader-service\CardreaderWindowService\WindowsService_HostAPI\ThaiNationalIDCard\obj\Release\ThaiNationalIDCard.csproj.CopyComplete
+D:\coding\cardreader-service\CardreaderWindowService\WindowsService_HostAPI\ThaiNationalIDCard\obj\Release\ThaiNationalIDCard.dll
+D:\coding\cardreader-service\CardreaderWindowService\WindowsService_HostAPI\ThaiNationalIDCard\obj\Release\ThaiNationalIDCard.pdb

@@ -1,0 +1,2 @@
+c:\Windows\Microsoft.NET\Framework\v4.0.30319\installutil "%~dp0CardReaderWindowsService.exe"
+pause

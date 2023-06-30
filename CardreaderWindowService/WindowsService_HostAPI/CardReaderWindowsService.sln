@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardReaderWindowsService", "WindowsService_HostAPI\CardReaderWindowsService.csproj", "{22B2A7E1-BA84-4087-B266-B2BE68E5F981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThaiNationalIDCard", "ThaiNationalIDCard\ThaiNationalIDCard.csproj", "{437C37AD-D733-46EC-8348-69B75F64B62F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "CardReaderWindowsServiceInstaller", "CardReaderWindowsServiceInstaller\CardReaderWindowsServiceInstaller.vdproj", "{0BA8D4FE-6C0B-4F26-827E-6EBE664BAB89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		release-40|Any CPU = release-40|Any CPU
+		release-45|Any CPU = release-45|Any CPU
+		release-452|Any CPU = release-452|Any CPU
+		release-46|Any CPU = release-46|Any CPU
+		release-461|Any CPU = release-461|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22B2A7E1-BA84-4087-B266-B2BE68E5F981}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{22B2A7E1-BA84-4087-B266-B2BE68E5F981}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{22B2A7E1-BA84-4087-B266-B2BE68E5F981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22B2A7E1-BA84-4087-B266-B2BE68E5F981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22B2A7E1-BA84-4087-B266-B2BE68E5F981}.release-40|Any CPU.ActiveCfg = Release|Any CPU
+		{22B2A7E1-BA84-4087-B266-B2BE68E5F981}.release-40|Any CPU.Build.0 = Release|Any CPU
+		{22B2A7E1-BA84-4087-B266-B2BE68E5F981}.release-45|Any CPU.ActiveCfg = Release|Any CPU
+		{22B2A7E1-BA84-4087-B266-B2BE68E5F981}.release-45|Any CPU.Build.0 = Release|Any CPU
+		{22B2A7E1-BA84-4087-B266-B2BE68E5F981}.release-452|Any CPU.ActiveCfg = Release|Any CPU
+		{22B2A7E1-BA84-4087-B266-B2BE68E5F981}.release-452|Any CPU.Build.0 = Release|Any CPU
+		{22B2A7E1-BA84-4087-B266-B2BE68E5F981}.release-46|Any CPU.ActiveCfg = Release|Any CPU
+		{22B2A7E1-BA84-4087-B266-B2BE68E5F981}.release-46|Any CPU.Build.0 = Release|Any CPU
+		{22B2A7E1-BA84-4087-B266-B2BE68E5F981}.release-461|Any CPU.ActiveCfg = Release|Any CPU
+		{22B2A7E1-BA84-4087-B266-B2BE68E5F981}.release-461|Any CPU.Build.0 = Release|Any CPU
+		{437C37AD-D733-46EC-8348-69B75F64B62F}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{437C37AD-D733-46EC-8348-69B75F64B62F}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{437C37AD-D733-46EC-8348-69B75F64B62F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{437C37AD-D733-46EC-8348-69B75F64B62F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{437C37AD-D733-46EC-8348-69B75F64B62F}.release-40|Any CPU.ActiveCfg = release-40|Any CPU
+		{437C37AD-D733-46EC-8348-69B75F64B62F}.release-40|Any CPU.Build.0 = release-40|Any CPU
+		{437C37AD-D733-46EC-8348-69B75F64B62F}.release-45|Any CPU.ActiveCfg = release-45|Any CPU
+		{437C37AD-D733-46EC-8348-69B75F64B62F}.release-45|Any CPU.Build.0 = release-45|Any CPU
+		{437C37AD-D733-46EC-8348-69B75F64B62F}.release-452|Any CPU.ActiveCfg = release-452|Any CPU
+		{437C37AD-D733-46EC-8348-69B75F64B62F}.release-452|Any CPU.Build.0 = release-452|Any CPU
+		{437C37AD-D733-46EC-8348-69B75F64B62F}.release-46|Any CPU.ActiveCfg = release-46|Any CPU
+		{437C37AD-D733-46EC-8348-69B75F64B62F}.release-46|Any CPU.Build.0 = release-46|Any CPU
+		{437C37AD-D733-46EC-8348-69B75F64B62F}.release-461|Any CPU.ActiveCfg = release-461|Any CPU
+		{437C37AD-D733-46EC-8348-69B75F64B62F}.release-461|Any CPU.Build.0 = release-461|Any CPU
+		{0BA8D4FE-6C0B-4F26-827E-6EBE664BAB89}.Debug|Any CPU.ActiveCfg = Release
+		{0BA8D4FE-6C0B-4F26-827E-6EBE664BAB89}.Release|Any CPU.ActiveCfg = Release
+		{0BA8D4FE-6C0B-4F26-827E-6EBE664BAB89}.release-40|Any CPU.ActiveCfg = Release
+		{0BA8D4FE-6C0B-4F26-827E-6EBE664BAB89}.release-45|Any CPU.ActiveCfg = Release
+		{0BA8D4FE-6C0B-4F26-827E-6EBE664BAB89}.release-452|Any CPU.ActiveCfg = Release
+		{0BA8D4FE-6C0B-4F26-827E-6EBE664BAB89}.release-46|Any CPU.ActiveCfg = Release
+		{0BA8D4FE-6C0B-4F26-827E-6EBE664BAB89}.release-461|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91977CDF-2582-43EC-9B5E-90E52260031D}
+	EndGlobalSection
+EndGlobal
